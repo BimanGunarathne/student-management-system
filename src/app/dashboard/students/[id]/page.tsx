@@ -26,21 +26,21 @@ export default function StudentDetailPage() {
 
   return (
     <div className="max-w-md mx-auto p-6 bg-white rounded-lg shadow-md">
-      <h2 className="text-2xl font-bold mb-4">Student Details</h2>
+      <h2 className="text-2xl font-bold mb-4 text-black">Student Details</h2>
       <div className="space-y-3">
-        <p>
+        <p className="text-black">
           <span className="font-semibold">ID:</span> {student.id}
         </p>
-        <p>
+        <p className="text-black">
           <span className="font-semibold">Name:</span> {student.name}
         </p>
-        <p>
+        <p className="text-black">
           <span className="font-semibold">Age:</span> {student.age}
         </p>
-        <p>
+        <p className="text-black">
           <span className="font-semibold">Email:</span> {student.email}
         </p>
-        <p>
+        <p className="text-black">
           <span className="font-semibold">Grade:</span> {student.grade}
         </p>
       </div>
